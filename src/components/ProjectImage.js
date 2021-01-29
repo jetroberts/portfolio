@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function ProjectLeft(props) {
+export default function ProjectImage(props) {
     return (
-        <div className='flex justify-center content-center w-1/6 m-2'>
-            <img className='rounded-2xl' src='coding.png' alt=''/>
+        <div className='flex justify-center content-center w-1/3 md:w-1/6 md:h-28 m-4 p-1'>
+            <img className='rounded-2xl object-scale-down bg-white' src={ props.projectImg } alt=''/>
         </div>
 
     );

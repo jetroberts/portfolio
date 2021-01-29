@@ -1,6 +1,7 @@
 import React from "react";
 
 export default class ImageChange extends React.Component {
+
     constructor(props) {
         super(props);
         this.changeImage = this.changeImage.bind(this);
@@ -43,10 +44,10 @@ export default class ImageChange extends React.Component {
 
     render() {
         return (
-            <div className='container relative justify-center self-start w-1/2 lg:max-h-96'>
-                <img id='frontImage' className='absolute top-0 left-0 z-10 w-1/2 object-cover rounded-3xl p-2 transition-all duration-500' src={this.state.images[this.state.currentImage].img}
-                     alt='frontPage'/>
-            </div>
+                <div className='container flex justify-center self-center w-1/2 lg:max-h-96'>
+                    <img id='frontImage' className='object-scale-down rounded-3xl p-2 transition-all duration-500' src={this.state.images[this.state.currentImage].img}
+                         alt='frontPage'/>
+                </div>
         );
     }
 }

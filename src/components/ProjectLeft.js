@@ -4,10 +4,9 @@ import ProjectImage from './ProjectImage';
 
 export default function ProjectLeft(props) {
     return (
-        <div className='flex h-48 my-5 justify-between shadow-card rounded-3xl'>
-            <ProjectImage/>
-            <ProjectInformation projectName={props.projectName} projectDescription={props.projectDescription}/>
+        <div className='flex flex-col items-center md:flex-row md:pb-6 mt-3'>
+            <ProjectImage projectImg={ props.projectImg }/>
+            <ProjectInformation projectName={props.projectName} projectDescription={props.projectDescription} />
         </div>
-
     );
 }
