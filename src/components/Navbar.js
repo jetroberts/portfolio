@@ -9,6 +9,9 @@ export default function Navbar() {
                 </h1>
                 <div className='flex items-center divide-x divide-gray-400 text-gray-700'>
                     <span className="text-sm md:text-lg px-3 md:px-6 hover:text-yellow-700">
+                        <Link to='/'>Home</Link>
+                    </span>
+                    <span className="text-sm md:text-lg px-3 md:px-6 hover:text-yellow-700">
                         <Link to='/about'>About</Link>
                     </span>
                     <span className="text-sm md:text-lg px-3 md:px-6 hover:text-yellow-700">
