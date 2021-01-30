@@ -14,7 +14,7 @@ export default function Projects() {
                          projectDescription='Currently in development, a web application that can store user events. The website is written in PHP using the Laravel framework. Each user is able to login and view their events, the aim is to allow tracking of important events such as moving house or exchanging contracts.'
                          projectImg='./Laravel.png'/>
             <ProjectLeft projectName='Boid Simulation'
-                          projectDescription='A flock simulation written in JavaScript, each boid follows 3 rules, separation, alignment, and cohesion. When multiple boids are rendered they collectively they resemble a flock of birds.'
+                          projectDescription='A flock simulation written in JavaScript, each boid follows 3 rules, separation, alignment, and cohesion. When multiple boids are rendered they collectively resemble a flock of birds.'
                           projectImg='./JavascriptLogo.png'/>
             <ProjectLeft projectName='Adhesive Joint Strength'
                          projectDescription='My dissertation focussed on how to predict the strength of adhesive joints without having to run time consuming FEA simulations. Written in Python, the software was able to predict the Factor of Safety of the joint under a given load. The program featured a GUI and multi-threading.'
