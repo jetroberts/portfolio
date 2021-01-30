@@ -14,7 +14,7 @@ export default function About() {
                 <h1 className='p-2 md:w-1/3 text-4xl text-gray-800'>Who Am I?</h1>
                 <p className='md:w-2/3 px-5 py-3 text-lg text-gray-800 text-center md:text-right'>I am a recent
                     mechanical engineering graduate but over the past 5 years have fallen in love with software
-                    development. Since then I have spent as much time learning about programming as I can. I have a
+                    development. I have spent as much time learning about programming as I can and have a
                     solid understanding of programming concepts such as OOP and
                     MVC, and can confidently code in Python, Java, and JavaScript. More recently I have been teaching
                     myself to create websites, this portfolio is a simple React and TailwindCSS website, however, I have
