@@ -8,7 +8,7 @@ export default function Projects() {
             <h1 className='text-4xl text-gray-800 pb-4 border-b-2'>Projects</h1>
 
             <ProjectLeft projectName='Bug Tracker'
-                         projectDescription='A new project that I am still developing using the ASP.NET framework and Bootstrap CSS. The aim is to create a website that can track bugs within a project, each project has assigned developers and bugs that can be views by the allocated developers.'
+                         projectDescription='A new project that I am still developing using the ASP.NET framework and Bootstrap CSS. The aim is to create a website that can track bugs within a project and timeline their priority. Each project has assigned developers that are able to view the bugs within each project.'
                          projectImg='./csharp.jpg'/>
             <ProjectLeft projectName='Portfolio Website'
                           projectDescription='Using Tailwind CSS and React I was able to create a professional portfolio website. If you are interested in your own custom portfolio website then please get in touch!'
