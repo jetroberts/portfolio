@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SkillCards from "./SkillCards";
 
 export default function Skills() {

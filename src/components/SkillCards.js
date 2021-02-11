@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function SkillCards(props) {
     return (
@@ -7,7 +8,7 @@ export default function SkillCards(props) {
             <img className='object-scale-down h-32 mx-auto p-3' src={ props.img }
                  alt='tailwindcss'/>
 
-            <h1 className='text-gray-800 text-2xl pb-3'>{ props.name }</h1>
+            <Link to='/projects'><h1 className='text-gray-800 text-2xl pb-3 hover:text-yellow-700'>{ props.name }</h1></Link>
         </div>
     );
 }

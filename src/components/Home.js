@@ -5,7 +5,7 @@ import FrontPageImage from "./FrontPageImage";
 
 export default function Home() {
     return (
-        <div className='container flex-col h-full'>
+        <div className='container flex-col pb-7'>
             <div className='container flex'>
                 <Introduction/>
                 <FrontPageImage />

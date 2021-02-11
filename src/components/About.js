@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
     return (
-        <div className='container flex-col justify-center content-center'>
+        <div className='container flex-col justify-center content-center pb-7'>
             <h1 className='text-4xl text-gray-800 pb-5 border-b-2'>About</h1>
             <div className='flex my-2 md:my-4 justify-center'>
                 <img className='object-contain p-2 md:w-1/3 rounded-3xl' src='./JoshPortrait500.png'
